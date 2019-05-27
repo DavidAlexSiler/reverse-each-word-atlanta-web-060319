@@ -6,7 +6,9 @@ def reverse_each_word(s)
   end
   new_arr.join(' ')
 end
-arr = s.split(' ')
+  
+def reverse_each_word(st)
+  arr = s.split(' ')
   arr.collect do |word|
     word.reverse
   end
