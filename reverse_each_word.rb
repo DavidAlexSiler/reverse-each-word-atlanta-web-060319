@@ -9,8 +9,8 @@ end
   
 def reverse_each_word(st)
   arr = st.split(' ')
-  arr.collect do |word|
+  new_arr = arr.collect do |word|
     word.reverse
   end
-  return arr.join(' ')
+  return new_arr.join(' ')
 end
